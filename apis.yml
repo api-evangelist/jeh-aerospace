@@ -1,23 +1,67 @@
 aid: jeh-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jeh-aerospace.png
 name: Jeh Aerospace
-description: Jeh Aerospace is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Jeh Aerospace is a precision aerospace manufacturing company building "future
+  factories" across the US-India corridor to supply aerostructures and
+  aero-engine components for the commercial aerospace supply chain. From
+  certified facilities in India spanning more than 160,000 square feet, Jeh
+  delivers machining, sheet metal, tubes and pipes, surface treatment,
+  structural assembly, and engineering services on time and at scale. The
+  company is fully compliant with AS9100, ISO 9001, OEM requirements, and export
+  regulations, and weaves a digital thread across its supplier networks for
+  radical transparency. Jeh operates from both the US and India and is backed by
+  General Catalyst and IndiGo Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/jeh-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- indigo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aerospace
+- Manufacturing
+- Aerostructures
+- Aero-Engine Components
+- Supply Chain
+- Precision Machining
+- India
 apis: []
+common:
+- type: DomainSecurity
+  url: security/jeh-aerospace-domain-security.yml
+- type: Website
+  url: https://jeh.aero
+- type: Login
+  url: https://www.jehportal.com/
+- type: Support
+  url: https://jeh.aero/contactus
+- type: LinkedIn
+  url: https://www.linkedin.com/company/jeh.aero/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
